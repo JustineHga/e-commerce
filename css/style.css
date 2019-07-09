@@ -45,15 +45,23 @@ h2 {
 	font-family: 'Orbitron', sans-serif;
 }
 
-<<<<<<< HEAD
+
+
+
+/************ CONTENT MOBILE **************/
+.justify {
+	justify-content:center;
+}
+
 .content{
 	text-align:center;
-	border: solid 1px;
+	/* border: solid 1px; */
 }
 
 .article{
 	border: solid 1px;
-	padding:1%;
+	padding:2%;
+	margin:3%;
 	height: 300px;
 }
 .articleimg{
@@ -62,31 +70,8 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 /* header */
 
 /* header menu */
->>>>>>> master
+
 
