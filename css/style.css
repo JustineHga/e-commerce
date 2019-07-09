@@ -106,15 +106,61 @@ h2 {
 /*** Footer **************************************/
 
 footer {
-	background-color: #00FFFF;
+
 }
 
 #infoServices {
 	text-align:center;
-	background-color: white;
+	background-color: #fff;
 }
 
 #infoServices i{
 	font-size: 2em;
 	color: black;
 }
+
+#blocFin {
+	background-color: #06b9fe;
+	padding-bottom: 5px;
+}
+
+#logoFooter {
+	font-family: gamer;
+	font-size: 2em;
+	color: #3a3a3a;
+}
+
+#lieuStockage {
+	text-align: center;
+	color: #fff;
+}
+
+/* #lieuStockage card { */
+	/* background-color: #06b9fe; */
+/* } */
+
+#lieuStockage i{
+	font-size: 6.2em;
+	float: left;
+}
+
+#lieuStockage #blocTextLieuStockage {
+	padding-top: 10px;
+	text-align: left;
+	font-size: 1.2em;
+	margin-left: 15px;
+}
+
+#lieuStockage #blocTextLieuStockage li {
+	line-height: 10px;
+}
+
+#mentionsLegales {
+	text-align: center;
+}
+
+#mentionsLegales #copyright {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
