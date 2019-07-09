@@ -44,3 +44,34 @@ référencement:
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
+
+
+
+
+/************ CONTENT MOBILE **************/
+.justify {
+	justify-content:center;
+}
+
+.content{
+	text-align:center;
+	/* border: solid 1px; */
+}
+
+.article{
+	border: solid 1px;
+	padding:2%;
+	margin:3%;
+	height: 300px;
+}
+.articleimg{
+	height:100%;
+}
+
+
+
+/* header */
+
+/* header menu */
+
+
