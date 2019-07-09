@@ -15,24 +15,27 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="./css/style.css"/>
 		
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"> 
-		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	</head>
 	
 	<body>
 		<!-- Header -->
 		<header>
 			<!-- Header Menu -->
-			
 			<nav class="navbar navbar-expand-lg navbar-light bg-info">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 			  
-			  <i class="fa fa-search" aria-hidden="true"></i>
+			  <div id="headerRecherche">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="text" placeholder="Entrer votre recherche ici"/>
+			  </div>
 			  
 			  <span>Retro G-Shop</span>
 			  
@@ -66,6 +69,10 @@
 			
 		</header>
 		
+		
+		
+		
+		
 		<div class="container content">
 		  <div class="row">
 			<div class="col-lg-12">
@@ -78,7 +85,21 @@
 							<img class="articleImg" src="./img/mdRambo.png">
 						</div>
 						<div class="articleDivText">
+							<div class="articleDivTextDiv">
+								<h2 class="articleH2">Rambo 3</h2>
+							</div>
 							
+							<div class="articleDivTextDiv2">
+								<p class="articleConsole">Mega Drive</p>
+							</div>
+							
+							<div class="articleDivTextDiv3">
+								<p><span class="articleAncienPrix">11.99€</span><span class="articleNouveauPrix">7.99€</span></p>
+							</div>
+							
+							<div class="articleDivTextDiv4">
+								<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+							</div>
 						</div>
 				
 					</div>
@@ -94,7 +115,21 @@
 								<img class="articleImg" src="./img/msVigilante.png">
 							</div>
 							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">Vigilante</h2>
+								</div>
 								
+								<div class="articleDivTextDiv2">
+									<p class="articleConsole">Master System</p>
+								</div>
+								
+								<div class="articleDivTextDiv3">
+									<p><span class="articleAncienPrix">14.99€</span><span class="articleNouveauPrix">8.99€</span></p>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
 							</div>
 					
 						</div>
@@ -109,7 +144,21 @@
 								<img class="articleImg" src="./img/nesZelda.png">
 							</div>
 							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">The Legend of Zelda</h2>
+								</div>
 								
+								<div class="articleDivTextDiv2">
+									<p class="articleConsole">NES</p>
+								</div>
+								
+								<div class="articleDivTextDiv3">
+									<p><span class="articleAncienPrix">44.99€</span><span class="articleNouveauPrix">27.99€</span></p>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
 							</div>
 					
 						</div>
@@ -124,7 +173,21 @@
 								<img class="articleImg" src="./img/snesStreet.png">
 							</div>
 							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">Street Fighter 2</h2>
+								</div>
 								
+								<div class="articleDivTextDiv2">
+									<p class="articleConsole">Super NES</p>
+								</div>
+								
+								<div class="articleDivTextDiv3">
+									<p><span class="articleAncienPrix">29.99€</span><span class="articleNouveauPrix">19.99€</span></p>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
 							</div>
 					
 						</div>
@@ -136,5 +199,74 @@
 		  </div>
 		</div>
 
+		<!-- fin du header -->
+	
+	
+		<footer>
+		
+			<div class="container-fluid">
+			
+				<div id="infoServices" class="row">
+				
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-phone card-img-top" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Hotline dédiée</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-handshake-o" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Avis vérifié</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Paiement sécurisé</p>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			
+			<div id="blocFin">
+			
+				<div id="logoFooter">			
+					<p>Retro G Shop</p>
+				</div>
+			
+				<div id="lieuStockage" class="container-fluid">	
+					
+					<div class="row">
+						<div class="col-1 offset-2">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="col-7 offset-1">
+							<ul id="blocTextLieuStockage">
+								<li><p>10, rue des Carreaux</p></li>
+								<li><p>62 200 Boulogne-sur-mer</p></li>
+								<li><p>06.66.66.66.66</p></li>
+								<li><p>retrogshop@gmail.com</p></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+					
+				<div id="mentionsLegales">
+					<div> 
+						<p><a>Mentions légales</a> / <a>CGV</a> / <a>FAQ</a><p>
+					</div>
+					<p id="copyright">copyright tous droits réservés 2019</p>				
+				</div>
+			
+			</div>
+			
+		</footer>
+	
 	</body>
 </html>

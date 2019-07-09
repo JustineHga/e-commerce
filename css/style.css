@@ -28,7 +28,7 @@ référencement:
     - Le champ sémantique autour des mots-clés
     - La qualité et l’originalité du contenu
     - L’aspect mobile friendly – Responsive**/
-
+/**/
 
 @font-face{
     font-family:"gamer";
@@ -44,10 +44,15 @@ référencement:
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
-
-/* header mobile */
-
 /* header menu */
+
+/* header menu mobile*/
+
+.navbar{
+	position : fixed;
+	z-index : 100;
+	width : 100%;
+}
 
 #navbarSupportedContent{
 	margin-top : 10px;
@@ -57,10 +62,51 @@ h2 {
 	border-top : 1px solid orange;
 }
 
-/* fin header menu */
-
 /* fin header mobile*/
 
+/* header menu pc */
+
+.nav-item{
+	border-top : 1px solid orange;
+}
+
+#headerRecherche input{
+	display : none;
+}
+
+/* fin header menu pc */
+
+@media (min-width:1201px){
+	
+	.nav-item{
+		border : inherit;
+		margin-left : 10%;
+	}
+
+	#navbarSupportedContent{
+		margin-top : inherit;
+	}
+	
+	#headerRecherche{
+		position : absolute;
+		margin-left : 60%;
+	}
+	
+	#headerRecherche input{
+		display : inline;
+	}
+	
+	.fa-shopping-bag{
+		position : absolute;
+		margin-left : 95%;
+	}
+	
+	.fa-user{
+		position : absolute;
+		margin-left : 90%;
+	}
+	
+}
 
 /************ CONTENT MOBILE **************/
 .justify {
@@ -73,8 +119,7 @@ h2 {
 }
 
 .article{
-	border: solid 1px;
-	background:orange;
+	border-bottom: solid 1px;
 	padding:2%;
 	margin:3%;
 	height: 200px;
@@ -94,10 +139,149 @@ h2 {
 .articleDivText {
 	width:70%;
 	height:100%;
-
+	display:flex;
+	flex-direction:column;
 }
 .articleImg{
     height: auto;
     width: 100%;
 	max-height:100%;
 }
+.articleH2 {
+	font-family: sans-serif;
+    font-weight: bold;
+    color: #ffb100;
+	font-size:1.5em;
+}
+.articleConsole {
+	font-style:italic;
+}
+.articleAncienPrix {
+    font-style: italic;
+    text-decoration: line-through;
+    margin-right: 15%;
+    font-weight: bold;
+    font-size: 1.1em;
+	text-decoration-color: red;
+}
+.articleNouveauPrix {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #00abff;
+    font-weight: bold;
+}
+.articleButton {
+    width: 50%;
+    height: 50px;
+    border: solid 2px black;
+    background: none;
+    border-radius: 40px;
+	transition: background .5s;
+}
+.articleButton:hover {
+    transition:all .5s;
+	background:#ffb100;
+	color:white;
+}
+.articleA {
+	color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.articleButton:hover .articleA{
+	transition:all .5s;
+	color:white;
+	text-decoration:none;
+}
+.articleDivTextDiv {
+	display:flex;
+	height:25%;
+	margin-left:3%;
+}
+.articleDivTextDiv2 {
+	display:flex;
+	height:25%;
+	margin-left:3%;
+	font-weight:bold;
+}
+.articleDivTextDiv3 {
+	display:flex;
+	height:25%;
+	justify-content: flex-end;
+}
+.articleDivTextDiv4 {
+	display:flex;
+	height:25%;
+	justify-content: flex-end;
+}
+
+/* header */
+
+/* header menu */
+
+
+/*** Footer **************************************/
+
+#infoServices {
+	text-align:center;
+	background-color: #fff;
+}
+
+#infoServices i{
+	font-size: 1.8em;
+	color: black;
+}
+
+#infoServices .textInfoServices {
+	font-style: italic;
+}
+
+#blocFin {
+	background-color: #06b9fe;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+#logoFooter {
+	font-family: gamer, arial, sans-serif;
+	font-size: 2em;
+	color: #3a3a3a;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#lieuStockage {
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+}
+
+#lieuStockage i{
+	font-size: 6.2em;
+	float: left;
+}
+
+#lieuStockage #blocTextLieuStockage {
+	padding-top: 15px;
+	text-align: left;
+	/* font-size: 1.2em; */
+	margin-left: 15px;
+}
+
+#lieuStockage #blocTextLieuStockage li {
+	line-height: 8px;
+}
+
+#mentionsLegales {
+	padding-top: 50px;
+	text-align: center;
+	line-height: 8px;
+}
+
+#mentionsLegales #copyright {
+	/* line-height: 10px; */
+	font-style: italic;
+	font-size: 0.8em;
+}
+
