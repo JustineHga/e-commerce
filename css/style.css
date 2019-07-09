@@ -46,9 +46,13 @@ h2 {
 }
 /* header menu */
 
-/* header mobile */
+/* header menu mobile*/
 
-/* header menu */
+.navbar{
+	position : fixed;
+	z-index : 100;
+	width : 100%;
+}
 
 #navbarSupportedContent{
 	margin-top : 10px;
@@ -58,10 +62,51 @@ h2 {
 	border-top : 1px solid orange;
 }
 
-/* fin header menu */
-
 /* fin header mobile*/
 
+/* header menu pc */
+
+.nav-item{
+	border-top : 1px solid orange;
+}
+
+#headerRecherche input{
+	display : none;
+}
+
+/* fin header menu pc */
+
+@media (min-width:1201px){
+	
+	.nav-item{
+		border : inherit;
+		margin-left : 10%;
+	}
+
+	#navbarSupportedContent{
+		margin-top : inherit;
+	}
+	
+	#headerRecherche{
+		position : absolute;
+		margin-left : 60%;
+	}
+	
+	#headerRecherche input{
+		display : inline;
+	}
+	
+	.fa-shopping-bag{
+		position : absolute;
+		margin-left : 95%;
+	}
+	
+	.fa-user{
+		position : absolute;
+		margin-left : 90%;
+	}
+	
+}
 
 /************ CONTENT MOBILE **************/
 .justify {
