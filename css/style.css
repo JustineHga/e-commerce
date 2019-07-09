@@ -1,1 +1,42 @@
-.
+/***reset**************************************/
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;
+	font-family:arial, sans-serif;
+}
+
+/**cyan: hexa: #00FFFF  rgb: rgb(0,255,255)
+Orange: hexa: #FFA500 rgb: rgb(255,165,0)
+
+
+
+
+référencement:
+
+
+    - Les balises html (title, meta description, niveaux de titres Hn, attribut alt pour les images…)
+    - Les rich snippets (extraits enrichis)
+    - La structure des URLs
+    - Les temps de chargement
+    - Le maillage interne
+    - Les fichiers robots.txt et sitemap
+    - La pertinence des mots-clés
+    - Le placement des mots-clés dans les contenus et leur densité
+    - Le champ sémantique autour des mots-clés
+    - La qualité et l’originalité du contenu
+    - L’aspect mobile friendly – Responsive**/
+
+
+@font-face{
+    font-family:"gamer";
+    src : url("./police/Gamer2.ttf") format("truetype");
+}
+
+
+.game {
+	font-family:"gamer";
+	font-size:4em;
+}
