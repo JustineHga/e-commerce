@@ -46,7 +46,21 @@ h2 {
 }
 /* header menu */
 
+/* header mobile */
 
+/* header menu */
+
+#navbarSupportedContent{
+	margin-top : 10px;
+}
+
+.nav-item{
+	border-top : 1px solid orange;
+}
+
+/* fin header menu */
+
+/* fin header mobile*/
 
 
 /************ CONTENT MOBILE **************/
@@ -61,20 +75,33 @@ h2 {
 
 .article{
 	border: solid 1px;
+	background:orange;
 	padding:2%;
 	margin:3%;
-	height: 300px;
+	height: 200px;
 }
-.articleimg{
+.articleContent {
+	display:flex;
+	flex-direction:row;
 	height:100%;
 }
 
+.articleDivImg {
+	width:30%;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+.articleDivText {
+	width:70%;
+	height:100%;
 
-
-/* header */
-
-
-
+}
+.articleImg{
+    height: auto;
+    width: 100%;
+	max-height:100%;
+}
 
 /*** Footer **************************************/
 
