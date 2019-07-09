@@ -56,3 +56,28 @@ h2 {
 .nav-item{
 	border-top : 1px solid orange;
 }
+
+/* fin header menu */
+
+/* fin header */
+
+
+/************ CONTENT MOBILE **************/
+.justify {
+	justify-content:center;
+}
+
+.content{
+	text-align:center;
+	/* border: solid 1px; */
+}
+
+.article{
+	border: solid 1px;
+	padding:2%;
+	margin:3%;
+	height: 300px;
+}
+.articleimg{
+	height:100%;
+}
