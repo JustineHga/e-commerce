@@ -44,3 +44,14 @@ référencement:
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
+
+/*** Footer **************************************/
+
+footer {
+	background-color: #00FFFF;
+}
+
+#infoServices i {
+	font-size: 2em;
+	color: black;
+}
