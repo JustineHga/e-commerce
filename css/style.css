@@ -82,7 +82,12 @@ footer {
 	background-color: #00FFFF;
 }
 
-#infoServices i {
+#infoServices {
+	text-align:center;
+	background-color: white;
+}
+
+#infoServices i{
 	font-size: 2em;
 	color: black;
 }
