@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 img{
 	width: 100%;
+=======
+.img-size{
+	display:block;
+	max-width:50%;
+	height:auto;
+>>>>>>> 92dfa9867f962f2162083ffd5f9623993c7f7706
 }
