@@ -75,8 +75,8 @@ h2 {
 
 /* header menu pc */
 
-header nav span{
-	font-family: 'Orbitron', sans-serif;
+#headerTitre{
+	font-size : 2em;
 	color : #fff;
 }
 
