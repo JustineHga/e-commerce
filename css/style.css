@@ -30,9 +30,10 @@ référencement:
     - L’aspect mobile friendly – Responsive**/
 /**/
 
-@font-face{
+
+@font-face {
     font-family:"gamer";
-    src : url("./police/Gamer2.ttf") format("truetype");
+    src : url("../font/Gamer.ttf") format("truetype");
 }
 
 
@@ -245,13 +246,23 @@ h2 {
 }
 
 #nomSite {
-	font-family: gamer, arial, sans-serif;
+	font-family: 'Orbitron', arial, sans-serif;
 	font-size: 2em;
 	color: #3a3a3a;
 	position: absolute;
 	top: 10px;
 	left: 10%;
 }
+
+#facebook {
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 10%;
+}
+
+#facebook span {margin-left: 10px;}
 
 #lieuStockage {
 	position: absolute;
