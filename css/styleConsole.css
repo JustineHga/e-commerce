@@ -1,7 +1,12 @@
-img{
-	width: 100%;
+.hautDocument{
+	padding-top: 100px;
 }
 
-.page-section{
-	padding-top: 100px;
+img{
+	width: 100%;
+	padding: 2%;
+}
+
+.textePresentation{
+	padding: 2%;
 }
