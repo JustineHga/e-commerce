@@ -30,14 +30,27 @@ référencement:
     - L’aspect mobile friendly – Responsive**/
 /**/
 
-@font-face{
+<<<<<<< HEAD
+@font-face {
+    font-family: 'Gamer';
+    src: url('Gamer.eot');
+    src: url('Gamer.eot?#iefix') format('embedded-opentype'),
+        url('Gamer.woff2') format('woff2'),
+        url('Gamer.woff') format('woff'),
+        url('Gamer.svg#Gamer') format('svg');
+    font-weight: 500;
+    font-style: normal;
+=======
+
+@font-face {
     font-family:"gamer";
-    src : url("./police/Gamer2.ttf") format("truetype");
+    src : url("../font/Gamer.ttf") format("truetype");
+>>>>>>> 86ccb1d4d106d19b036feb4a709ad6eb5c3e95f9
 }
 
 
 .game {
-	font-family:"gamer";
+	font-family:"Gamer";
 	font-size:4em;
 }
 
@@ -254,13 +267,23 @@ header nav span{
 }
 
 #nomSite {
-	font-family: gamer, arial, sans-serif;
+	font-family: 'Orbitron', arial, sans-serif;
 	font-size: 2em;
 	color: #3a3a3a;
 	position: absolute;
 	top: 10px;
 	left: 10%;
 }
+
+#facebook {
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 10%;
+}
+
+#facebook span {margin-left: 10px;}
 
 #lieuStockage {
 	position: absolute;

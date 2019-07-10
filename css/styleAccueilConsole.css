@@ -66,8 +66,17 @@ h2 {
 
 /* header menu pc */
 
+header nav span{
+	font-family: 'Orbitron', sans-serif;
+	color : #fff;
+}
+
+.fa{
+	color : #fff;
+}
+
 .nav-item{
-	border-top : 1px solid orange;
+	border-top : 1px solid #000;
 }
 
 #headerRecherche input{
@@ -75,38 +84,6 @@ h2 {
 }
 
 /* fin header menu pc */
-
-@media (min-width:1201px){
-	
-	.nav-item{
-		border : inherit;
-		margin-left : 10%;
-	}
-
-	#navbarSupportedContent{
-		margin-top : inherit;
-	}
-	
-	#headerRecherche{
-		position : absolute;
-		margin-left : 60%;
-	}
-	
-	#headerRecherche input{
-		display : inline;
-	}
-	
-	.fa-shopping-bag{
-		position : absolute;
-		margin-left : 95%;
-	}
-	
-	.fa-user{
-		position : absolute;
-		margin-left : 90%;
-	}
-	
-}
 
 /************ CONTENT MOBILE **************/
 .justify {
@@ -119,6 +96,7 @@ h2 {
 
 .content{
 	text-align:center;
+	padding-top : 100px;
 	/* border: solid 1px; */
 }
 
