@@ -89,14 +89,20 @@ header nav span{
 .justify {
 	justify-content:center;
 }
-
-.marg-img{
-	margin-left:40px;
+.h1Content{
+	padding-top : 100px;
+	text-align:center;
+	margin-bottom:20px;
 }
+
+.font-h1{font-family:'Anton', sans-serif;}
+
+.descriptionContent{text-align:center;}
+
+.marg-img{margin-left:40px;}
 
 .content{
 	text-align:center;
-	padding-top : 100px;
 	/* border: solid 1px; */
 }
 
