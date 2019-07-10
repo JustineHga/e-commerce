@@ -31,7 +31,7 @@ référencement:
 /**/
 
 @font-face {
-    font-family: 'Gamer';
+    font-family: "Gamer";
     src: url('Gamer.eot');
     src: url('Gamer.eot?#iefix') format('embedded-opentype'),
         url('Gamer.woff2') format('woff2'),
@@ -279,13 +279,12 @@ h2 {
 	background-color: #06b9fe;
 	/* padding-bottom: 5px; */
 	position: relative;
-	height: 370px;
+	height: 400px;
 }
 
 #nomSite {
-	font-family: 'Orbitron', arial, sans-serif;
-	font-size: 2em;
-	color: #3a3a3a;
+	font-size: 0.8em;
+	color: #fff;
 	position: absolute;
 	top: 10px;
 	left: 10%;
@@ -295,7 +294,7 @@ h2 {
 	font-size: 1.2em;
 	color: #fff;
 	position: absolute;
-	top: 20px;
+	top: 38px;
 	right: 10%;
 }
 
@@ -335,9 +334,11 @@ h2 {
 
 #blocMentionsLegales {
 	position: absolute;
-	bottom: 40px;
-	left: 10%;
+	bottom: 70px;
+    text-align: center;
 	width: 100%;	
+	color: #fff;
+	font-size: 1.2em;
 }
 
 #blocCopyright {
