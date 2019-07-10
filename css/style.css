@@ -30,22 +30,18 @@ référencement:
     - L’aspect mobile friendly – Responsive**/
 /**/
 
-<<<<<<< HEAD
 @font-face {
     font-family: 'Gamer';
     src: url('Gamer.eot');
     src: url('Gamer.eot?#iefix') format('embedded-opentype'),
         url('Gamer.woff2') format('woff2'),
         url('Gamer.woff') format('woff'),
+		url("../font/Gamer.ttf") format("truetype"),
         url('Gamer.svg#Gamer') format('svg');
     font-weight: 500;
     font-style: normal;
-=======
 
-@font-face {
-    font-family:"gamer";
-    src : url("../font/Gamer.ttf") format("truetype");
->>>>>>> 86ccb1d4d106d19b036feb4a709ad6eb5c3e95f9
+
 }
 
 
