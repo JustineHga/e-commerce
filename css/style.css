@@ -187,6 +187,8 @@ h2 {
     font-weight: bold;
     color: #ffb100;
 	font-size:1.5em;
+	padding: 0;
+    text-align: left;
 }
 .articleConsole {
 	font-style:italic;
