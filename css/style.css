@@ -58,6 +58,7 @@ h2 {
 /* header menu mobile*/
 
 .navbar{
+	background-color : #06B9FE;
 	position : fixed;
 	z-index : 100;
 	width : 100%;
