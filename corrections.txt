@@ -1,0 +1,8 @@
+X footer: reduire la taille du titre du site
+
+Chrome -> OK
+
+Edge -> OK
+
+
+Firefox: content -> prix en bleu qui dépasse à droite pour les réolutions en dessous de 400px

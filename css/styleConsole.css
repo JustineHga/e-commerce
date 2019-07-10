@@ -2,11 +2,25 @@
 	padding-top: 100px;
 }
 
-img{
-	width: 100%;
+.containerConsole {
+	margin-top:0;
+}
+
+.textePresentation p{
+	font-size: 1.3em;
 	padding: 2%;
 }
 
-.textePresentation{
+h2{
+	padding-top: 30px;
+}
+
+.consoleCenter {
+	align-items:center;
+	
+}
+.consoleImg {
+	max-width: 500px;
+	width: 100%;
 	padding: 2%;
 }
