@@ -2,9 +2,8 @@
 	padding-top: 100px;
 }
 
-img{
-	width: 100%;
-	padding: 2%;
+.containerConsole {
+	margin-top:0;
 }
 
 .textePresentation p{
@@ -14,4 +13,14 @@ img{
 
 h2{
 	padding-top: 30px;
+}
+
+.consoleCenter {
+	align-items:center;
+	
+}
+.consoleImg {
+	max-width: 500px;
+	width: 100%;
+	padding: 2%;
 }

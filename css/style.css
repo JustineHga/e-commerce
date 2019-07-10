@@ -40,8 +40,6 @@ référencement:
         url('Gamer.svg#Gamer') format('svg');
     font-weight: 500;
     font-style: normal;
-
-
 }
 
 
@@ -287,7 +285,7 @@ h2 {
 }
 
 #nomSite {
-	font-size: 0.8em;
+	font-size: 0.5em;
 	color: #fff;
 	position: absolute;
 	top: 10px;
@@ -298,7 +296,7 @@ h2 {
 	font-size: 1.2em;
 	color: #fff;
 	position: absolute;
-	top: 38px;
+	top: 22px;
 	right: 10%;
 }
 
