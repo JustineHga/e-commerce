@@ -40,8 +40,6 @@ référencement:
         url('Gamer.svg#Gamer') format('svg');
     font-weight: 500;
     font-style: normal;
-
-
 }
 
 
@@ -62,6 +60,7 @@ h2 {
 	position : fixed;
 	z-index : 100;
 	width : 100%;
+	top:0px;
 }
 
 #navbarSupportedContent{
@@ -138,12 +137,16 @@ h2 {
 }
 
 .topText{
+	margin-top:80px;
 	padding-top: 100px;
-	background-image: url(../img/banniere.jpg);
+	background-image: url(../img/banner.jpg);
 	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	font-family: 'Anton', sans-serif;
-	color: white;
-	text-shadow: 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px white;
+
 }
 
 .article{
@@ -287,7 +290,7 @@ h2 {
 }
 
 #nomSite {
-	font-size: 0.8em;
+	font-size: 0.5em;
 	color: #fff;
 	position: absolute;
 	top: 10px;
@@ -298,7 +301,7 @@ h2 {
 	font-size: 1.2em;
 	color: #fff;
 	position: absolute;
-	top: 38px;
+	top: 22px;
 	right: 10%;
 }
 
