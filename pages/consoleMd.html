@@ -24,18 +24,21 @@
 	</head>
 	
 	<body>
+	
 		<!-- Header -->
 		<header>
 			<!-- Header Menu -->
-			
-			<nav class="navbar navbar-expand-lg navbar-light bg-info">
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 			  
-			  <i class="fa fa-search" aria-hidden="true"></i>
+			  <div id="headerRecherche">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="text" placeholder="Entrer votre recherche ici"/>
+			  </div>
 			  
-			  <span>Retro G-Shop</span>
+			  <span id="headerTitre" class="game">Retro G-Shop</span>
 			  
 			  <i class="fa fa-user" aria-hidden="true"></i>
 			  
@@ -44,26 +47,26 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Accueil</a>
+					<a class="nav-link text-light" href="#">Accueil</a>
+				  </li>
+				  <li class="nav-item ">
+					<a class="nav-link text-light" href="#">Consoles</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Consoles</a>
+					<a class="nav-link text-light" href="#">CGV</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">CGV</a>
+					<a class="nav-link text-light" href="#">Mentions</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Mentions</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Compte</a>
+					<a class="nav-link text-light" href="#">Compte</a>
 				  </li>
 				</ul>
 			  </div>
 			</nav>
+		
 		</header>
-
-			<!-- fin Header Menu -->
+		<!-- fin Header Menu -->
 			
 			
 			
@@ -194,18 +197,6 @@
 							  </div>
 							</div>
 						  </div>
-
-						<!-- <div class="row">
-							<div class="col-sm-4">
-								<p><img src="../img/mdBeast.png"></p>
-							</div>
-							<div class="col-sm-4 ">
-								<p><img src="../img/mdRambo.png"></p>
-							</div>
-							<div class="col-sm-4">
-								<p><img src="../img/mdShinobi.png"></p>
-							</div>
-						</div> -->
 					</div>
 				</section>
 			</div>
