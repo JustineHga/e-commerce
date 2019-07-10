@@ -226,9 +226,13 @@ h2 {
 	color:white;
 }
 .articleA {
-	color: black;
+    color: black;
     font-weight: bold;
     font-style: italic;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 45px;
 }
 .articleButton:hover .articleA{
 	transition:all .5s;
