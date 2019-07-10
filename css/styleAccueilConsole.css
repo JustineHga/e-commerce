@@ -1,0 +1,14 @@
+
+
+
+.img-size {
+	display:block;
+	max-width: 60%; 
+	height: auto; 
+}
+
+body {
+	font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
