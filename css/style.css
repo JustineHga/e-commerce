@@ -58,10 +58,9 @@ h2 {
 /* header menu mobile*/
 
 .activenav {
-	background:#fff;
 }
 .activenav a {
-	color:#06B9FE!important;
+	font-weight:bold;
 }
 
 .navbar{
