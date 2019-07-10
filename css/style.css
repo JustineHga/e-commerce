@@ -67,8 +67,17 @@ h2 {
 
 /* header menu pc */
 
+header nav span{
+	font-family: 'Orbitron', sans-serif;
+	color : #fff;
+}
+
+.fa{
+	color : #fff;
+}
+
 .nav-item{
-	border-top : 1px solid orange;
+	border-top : 1px solid #000;
 }
 
 #headerRecherche input{

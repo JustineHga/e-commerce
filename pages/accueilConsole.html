@@ -3,7 +3,7 @@
 
 	<head>
 	
-		<title>RETRO G-SHOP</title>
+		<title>Retro G-Shop</title>
 		
 		<meta charset="UTF-8"/>
 		<meta name="author" content="El groupo de la muerte"/>
@@ -15,68 +15,225 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../css/styleAccueilConsole.css"/>
 		
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"/> 
-		<link rel="stylesheet" href="./css/styleAccueilConsole.css"/>
-		
+		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	</head>
 	
 	<body>
+		<!-- Header -->
 		<header>
+			<!-- Header Menu -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-info">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div id="headerRecherche">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="text" placeholder="Entrer votre recherche ici"/>
+			  </div>
+			  
+			  <span>Retro G-Shop</span>
+			  
+			  <i class="fa fa-user" aria-hidden="true"></i>
+			  
+			  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Accueil</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Consoles</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">CGV</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Mentions</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Compte</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
+		
+			<!-- fin Header Menu -->
+			
+			
 		</header>
 		
-		<section class="container-fluid">
 		
-			<div class="row">
-			
-				<div class="mx-auto">			
-					<p>Nos consoles</p>
-				</div>
-				
-			</div>
-			
-			<div class="row">
-			
-				<div class="mx-auto">
-					<img class="img-size" src="../img/ms.png" alt="Photo d'une master system"/>
-				</div>
-				
-			</div>
-			
-			<div class="row">
-			
-				<div class="mx-auto">
-					<img class="img-size" src="../img/md.png" alt="Photo d'une MegaDrive"/>
-				</div>
-				
-			</div>
-			
-			<div class="row">
-			
-				<div class="mx-auto">
-					<img class="img-size" src="../img/nes.png" alt="Photo d'une NES"/>
-				</div>
-				
-			</div>
-			
-			<div class="row">
-			
-				<div class="mx-auto">
-					<img class="img-size" src="../img/snes.png" alt="Photo d'une super Nintendo"/>
-				</div>
-				
-			</div>
-			
-		</section>
 		
+		
+		
+		<div class="container content">
+		  <div class="row">
+			<div class="col-lg-12">
+			  <div class="row justify">
+				<div class="col-lg-2 col-md-5 col-sm-12 article">
+				
+					<div class="articleContent">
+					
+						<div class="articleDivImg marg-img">
+							<img class="articleImg" src="../img/md.png">
+						</div>
+						<div class="articleDivText">
+							<div class="articleDivTextDiv">
+								<h2 class="articleH2">Mega Drive</h2>
+							</div>
+							
+							<div class="articleDivTextDiv4">
+								<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+							</div>
+						</div>
+				
+					</div>
+					
+				</div>
+					
+					<div class="col-lg-2 col-md-5 col-sm-12 article">
+					
+						<div class="articleContent">
+						
+							<div class="articleDivImg marg-img">
+								<img class="articleImg" src="../img/ms.png">
+							</div>
+							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">Master System</h2>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
+							</div>
+					
+						</div>
+					
+					</div>
+					
+					<div class="col-lg-2 col-md-5 col-sm-12 article">
+					
+						<div class="articleContent">
+						
+							<div class="articleDivImg marg-img">
+								<img class="articleImg" src="../img/nes.png">
+							</div>
+							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">NES</h2>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
+							</div>
+					
+						</div>
+					
+					</div>
+					
+					<div class="col-lg-2 col-md-5 col-sm-12 article">
+					
+						<div class="articleContent">
+						
+							<div class="articleDivImg marg-img">
+								<img class="articleImg" src="../img/snes.png">
+							</div>
+							<div class="articleDivText">
+								<div class="articleDivTextDiv">
+									<h2 class="articleH2">Super NES</h2>
+								</div>
+								
+								<div class="articleDivTextDiv4">
+									<button type="button" class="articleButton"><a href="#" class="articleA">Voir plus</a></button>
+								</div>
+							</div>
+					
+						</div>
+					
+					</div>
+					
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- fin du header -->
+	
+	
 		<footer>
-		</footer>
 		
+			<div class="container-fluid">
+			
+				<div id="infoServices" class="row">
+				
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-phone card-img-top" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Hotline dédiée</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-handshake-o" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Avis vérifié</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Paiement sécurisé</p>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			
+			<div id="blocFin">
+			
+				<div id="nomSite">			
+					<p>Retro G Shop</p>
+				</div>
+			
+				<div id="lieuStockage">	
+				
+					<div id="blocGroupeLieuStockage">	
+
+						<div id="iconeMapPointer">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<ul id="blocTextLieuStockage">
+							<li><p>10, rue des Carreaux</p></li>
+							<li><p>62 200 Boulogne-sur-mer</p></li>
+							<li><p>06.66.66.66.66</p></li>
+							<li><p>retrogshop@gmail.com</p></li>
+						</ul>
+						
+					</div>	
+					
+				</div>
+					
+				<div id="mentionsLegales">
+					<div> 
+						<p><a>Mentions légales</a> / <a>CGV</a> / <a>FAQ</a><p>
+					</div>
+					<p id="copyright">copyright tous droits réservés 2019</p>				
+				</div>
+			
+			</div>
+			
+		</footer>
+	
 	</body>
 </html>
-	
-	
-	
-	
-	
