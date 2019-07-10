@@ -260,7 +260,7 @@ header nav span{
 	background-color: #06b9fe;
 	/* padding-bottom: 5px; */
 	position: relative;
-	height: 370px;
+	height: 400px;
 }
 
 #nomSite {
@@ -316,9 +316,11 @@ header nav span{
 
 #blocMentionsLegales {
 	position: absolute;
-	bottom: 40px;
-	left: 10%;
+	bottom: 70px;
+    text-align: center;
 	width: 100%;	
+	color: #fff;
+	font-size: 1.2em;
 }
 
 #blocCopyright {
