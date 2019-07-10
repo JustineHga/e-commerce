@@ -47,13 +47,22 @@ référencement:
 	font-family:"Gamer";
 	font-size:4em;
 }
-
+h1 {
+	font-family: 'Anton', sans-serif;
+}
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
 /* header menu */
 
 /* header menu mobile*/
+
+.activenav {
+	background:#fff;
+}
+.activenav a {
+	color:#06B9FE!important;
+}
 
 .navbar{
 	background-color : #06B9FE;
@@ -139,7 +148,6 @@ h2 {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	font-family: 'Anton', sans-serif;
 	color: black;
 	text-shadow: 1px 1px white;
 
