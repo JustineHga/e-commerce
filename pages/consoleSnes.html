@@ -15,7 +15,8 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="../css/style.css"/>
+		<link rel="stylesheet" href="../css/styleConsole.css"/>
 		
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"> 
@@ -23,18 +24,21 @@
 	</head>
 	
 	<body>
+	
 		<!-- Header -->
 		<header>
 			<!-- Header Menu -->
-			
-			<nav class="navbar navbar-expand-lg navbar-light bg-info">
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 			  
-			  <i class="fa fa-search" aria-hidden="true"></i>
+			  <div id="headerRecherche">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="text" placeholder="Entrer votre recherche ici"/>
+			  </div>
 			  
-			  <span>Retro G-Shop</span>
+			  <span id="headerTitre" class="game">Retro G-Shop</span>
 			  
 			  <i class="fa fa-user" aria-hidden="true"></i>
 			  
@@ -43,27 +47,92 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Accueil</a>
+					<a class="nav-link text-light" href="#">Accueil</a>
+				  </li>
+				  <li class="nav-item ">
+					<a class="nav-link text-light" href="#">Consoles</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Consoles</a>
+					<a class="nav-link text-light" href="#">CGV</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">CGV</a>
+					<a class="nav-link text-light" href="#">Mentions</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Mentions</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Compte</a>
+					<a class="nav-link text-light" href="#">Compte</a>
 				  </li>
 				</ul>
 			  </div>
 			</nav>
 		
-			<!-- fin Header Menu -->
-			
 		</header>
+		<!-- fin Header Menu -->
 
+
+		<footer>
+		
+			<div class="container-fluid">
+			
+				<div id="infoServices" class="row">
+				
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-phone card-img-top" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Hotline dédiée</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-handshake-o" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Avis vérifié</p>
+						</div>
+					</div>
+					
+					<div class="blocInfoServices col-4">
+						<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+						<div class="textInfoServices">
+							<p>Paiement sécurisé</p>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+			
+			<div id="blocFin">
+			
+				<div id="nomSite">			
+					<p>Retro G Shop</p>
+				</div>
+			
+				<div id="lieuStockage">	
+				
+					<div id="blocGroupeLieuStockage">	
+
+						<div id="iconeMapPointer">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<ul id="blocTextLieuStockage">
+							<li><p>10, rue des Carreaux</p></li>
+							<li><p>62 200 Boulogne-sur-mer</p></li>
+							<li><p>06.66.66.66.66</p></li>
+							<li><p>retrogshop@gmail.com</p></li>
+						</ul>
+						
+					</div>	
+					
+				</div>
+					
+				<div id="mentionsLegales">
+					<div> 
+						<p><a>Mentions légales</a> / <a>CGV</a> / <a>FAQ</a><p>
+					</div>
+					<p id="copyright">copyright tous droits réservés 2019</p>				
+				</div>
+			
+			</div>
+			
+		</footer>
 	</body>
 </html>

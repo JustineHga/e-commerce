@@ -9,7 +9,20 @@
 .textePresentation p{
 	font-size: 1.3em;
 	padding: 2%;
+} @media(min-width: 768px){
+	.textePresentation p{
+		font-size: 1em;
+	}
+} @media(min-width: 992px){
+	.textePresentation p{
+		font-size: 1.25em;
+	}
+} @media(min-width: 1200px){
+	.textePresentation p{
+		font-size: 1.5em;
+	}
 }
+
 
 h2{
 	padding-top: 30px;
