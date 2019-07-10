@@ -90,10 +90,43 @@
 				</p>
 			</div>
 			
-			<div id="produitFormulaire">
-				<form>
-					<label>Quantité</label><input type="" 
-				</form>
+			<div id="produitFiche">
+			
+				<div id="produitFormulaire">
+					<form>
+						<div id="produitFormulaireQuantite">
+							<label>Quantité</label>
+							<input type="number" value="1">
+							<i class="fa fa-circle body-circle" aria-hidden="true"></i>
+						</div>
+						<div id="produitFormulaireBlister">
+							<select name="blister" size="1">
+								<option>Sous blister</option>
+								<option>Sans blister</option>
+							</select>
+						</div>
+					</form>
+				</div>
+				
+				<div id="produitPrix">
+					<div id="produitPrixInit" class="articleAncienPrix">
+						<p>199€</p>
+					</div>
+					<div id="produitPrixPromo" class="articleNouveauPrix">
+						<p>1.99€</p>
+					</div>
+				</div>
+				
+				<div id="produitAchat">
+					<div id="produitAchatStock">
+						<p>En stock</p>
+					</div>
+					
+					<div id="produitAchatPanier">
+						<button type="button" class="articleButton"><a href="" class="articleA">Ajouter au panier</a></button>
+					</div>
+				</div>
+			
 			</div>
 			
 			

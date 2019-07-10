@@ -4,10 +4,12 @@
 
 #produitImg{
 	height : 500px;
+	width : 100%;
 }
 
 #produitImg img{
 	height : 100%;
+	width : 100%;
 }
 
 #produitTitre{
@@ -15,12 +17,65 @@
 	margin : 30px 0;
 }
 
+#produitFiche{
+	margin-top : 30px;
+}
 
+#produitFormulaire{
+	position : absolute;
+	height : 100px;
+	margin-left : 10%;
+}
 
+#produitFormulaireQuantite{
+	float : left;
+	text-align : left;
+}
 
+#produitFormulaireQuantite input{
+	width : 10%;
+	text-align : center;
+}
 
+#produitFormulaireBlister{
+	position : absolute;
+	margin-top : 50px;
+}
 
+#produitFormulaireBlister select{
+	padding : 5%;
+}
 
+#produitPrix{
+	margin-left : 50%;
+}
+
+#produitAchat{
+	position : relative;
+	margin-top : 30px;
+	height : 80px;
+	margin-left : 10%;
+}
+
+#produitAchatStock{
+	position : absolute;
+	color : green;
+	line-height : 50px;
+}
+
+#produitAchatPanier{
+	position : absolute;
+	width : 100%;
+	padding-left : 30%;
+}
+
+.articleButton{
+	width : 80%;
+}
+
+.articleButton:hover {
+	background:green;
+}
 
 #avis {
 	/* background-color: pink; */
