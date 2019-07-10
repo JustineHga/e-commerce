@@ -233,6 +233,7 @@ header nav span{
 /*** Footer **************************************/
 
 #infoServices {
+	height: 100px;
 	padding-top: 20px;
 	text-align:center;
 	background-color: #fff;
@@ -249,9 +250,9 @@ header nav span{
 
 #blocFin {
 	background-color: #06b9fe;
-	padding-bottom: 5px;
+	/* padding-bottom: 5px; */
 	position: relative;
-	height: 350px;
+	height: 370px;
 }
 
 #nomSite {
@@ -278,7 +279,8 @@ header nav span{
 	top: 100px;
 	width: 100%;
 	height: 150px;	
-	color: #fff;	
+	color: #fff;
+
 }
 
 #lieuStockage #blocGroupeLieuStockage {
@@ -304,16 +306,22 @@ header nav span{
 	line-height: 8px;	
 }
 
-#mentionsLegales {
+#blocMentionsLegales {
+	position: absolute;
+	bottom: 40px;
+	left: 10%;
+	width: 100%;	
+}
+
+#blocCopyright {
 	position: absolute;
 	bottom: 10px;
 	width: 100%;
 	text-align: center;
 	line-height: 8px;
-	/* background-color: red; */
 }
 
-#mentionsLegales #copyright {
+#blocCopyright #copyright {
 	font-style: italic;
 	font-size: 0.8em;
 }
