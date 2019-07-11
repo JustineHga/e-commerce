@@ -25,6 +25,10 @@ em {
 	
 }
 
+#produitDescription{
+	text-align: justify;
+}
+
 #produitFiche{
 	margin-top : 30px;
 }
