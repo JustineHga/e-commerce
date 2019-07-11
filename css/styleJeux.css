@@ -2,9 +2,15 @@
 	margin-top : 120px;
 }
 
+em {
+	color:#06B9FE;
+}
+
 #produitImg{
 	height : 500px;
 	width : 100%;
+	margin : 0 5%;
+	margin : auto;
 }
 
 #produitImg img{
@@ -117,7 +123,7 @@
 }
 
 #avis #sousblocAvisClient {
-	width: 400px;
+	width: 100%;
 	margin: 0 auto;
 }
 
