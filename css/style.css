@@ -232,7 +232,7 @@ footer .container-fluid {
 }
 .articleButton:hover {
     transition:all .5s;
-	background:#06B9FE;
+	background-color: green;
 	color:white;
 }
 .articleA {
