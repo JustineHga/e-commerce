@@ -23,13 +23,22 @@ em {
 
 .article {height: 100%;}
 
+.articleH21, .articleH22{
+	font-weight : normal;
+}
+
 .articleDivImg{
     width: 100%;
 }
 
+.articleDivTextDiv{
+	margin : inherit;
+	padding-left : 5%;
+}
+
 .articleDivTextDiv4{
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
 }
 
 @font-face {

@@ -27,8 +27,8 @@ em {
 	}
 }
 
-.h1console {
-	font-family: "Nintender";
+.topTextCGV {
+	font-family: "Anton, sans-serif";
 	margin-top: 100px;
 }
 
@@ -48,4 +48,12 @@ h2{
 .textH1Console {
 	font-family: "gamer";
 	margin-left: 30px;
+}
+
+.nintendo {
+	font-family: "Nintender";
+}
+
+.sega {
+	font-family: "Sega";
 }

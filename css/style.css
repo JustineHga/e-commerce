@@ -233,8 +233,10 @@ footer .container-fluid {
 	padding: 50px 0 0 0;
     text-align: left;
 }
-.articleConsole {
+.articleConsole{font-style:italic;}
+.articleConsole2 {
 	font-style:italic;
+	margin-top:40px;
 }
 .articleAncienPrix {
     font-style: italic;
