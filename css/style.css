@@ -166,20 +166,14 @@ footer .container-fluid {
 	/* border: solid 1px; */
 }
 
->>>>>>> e5feaffdff87303c5d7d36f4f184fea19b4f54b0
+
 .topText {
-	margin-top:5px;
 	margin-top:100px;
->>>>>>> Stashed changes
 }
 .promos {
     width: 15%;
     position: absolute;
-<<<<<<< Updated upstream
-    top: 0;
-=======
-    top: 70px;
->>>>>>> Stashed changes
+    top: 40px;
     right: 0;
     margin-top: 0%;
 }
