@@ -56,11 +56,6 @@ h1 {
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
-.policeRetroG{
-	font-family:"Gamer";
-	font-size: 2em;
-	
-}
 /* header menu */
 
 /* header menu mobile*/
@@ -213,11 +208,12 @@ footer .container-fluid {
     font-weight: bold;
     color: #ffb100;
 	font-size:1.5em;
-	padding: 0;
+	padding: 50px 0 0 0;
     text-align: left;
 }
 .articleConsole {
 	font-style:italic;
+	margin-top:20px;
 }
 .articleAncienPrix {
     font-style: italic;
@@ -234,7 +230,7 @@ footer .container-fluid {
     font-weight: bold;
 }
 .articleButton {
-    width: 100px;
+    width: 40%;
     height: 50px;
     border: solid 2px black;
     background: none;
@@ -254,8 +250,6 @@ footer .container-fluid {
     height: 100%;
     display: block;
     line-height: 45px;
-	text-align:left;
-	margin-left:12%;
 }
 .articleButton:hover .articleA{
 	transition:all .5s;
@@ -266,10 +260,11 @@ footer .container-fluid {
 	display:flex;
 	height:25%;
 	margin-left:3%;
+	
 }
 .articleDivTextDiv2 {
 	display:flex;
-	height:25%;
+	height:20%;
 	margin-left:3%;
 	font-weight:bold;
 }
@@ -282,7 +277,6 @@ footer .container-fluid {
 	display:flex;
 	height:25%;
 	justify-content: flex-end;
-	margin-top:50px;
 }
 .decalText{
 	margin-top:30px;
@@ -412,7 +406,6 @@ footer .container-fluid {
 }
 #copyright{
 	color:white;
-	padding-bottom: 15px;
 }
 
 #blocMentionsLegales a{
