@@ -163,7 +163,11 @@ footer .container-fluid {
 .promos {
     width: 15%;
     position: absolute;
+<<<<<<< Updated upstream
     top: 0;
+=======
+    top: 70px;
+>>>>>>> Stashed changes
     right: 0;
     margin-top: 0%;
 }
