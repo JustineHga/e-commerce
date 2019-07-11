@@ -235,8 +235,10 @@ footer .container-fluid {
 	padding: 50px 0 0 0;
     text-align: left;
 }
-.articleConsole {
+.articleConsole{font-style:italic;}
+.articleConsole2 {
 	font-style:italic;
+	margin-top:40px;
 }
 .articleAncienPrix {
     font-style: italic;
@@ -301,7 +303,6 @@ footer .container-fluid {
 	display:flex;
 	height:25%;
 	justify-content: flex-end;
-	margin-top:50px;
 }
 .decalText{
 	margin-top:30px;
