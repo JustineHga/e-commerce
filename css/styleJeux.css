@@ -90,7 +90,7 @@ em {
 	background:green;
 }
 
-#avis {
+.avis {
 	/* background-color: pink; */
 	width: 100%;
 	height: 160px;
@@ -98,9 +98,10 @@ em {
 	border-top: 2px solid #06b9fe;
 	border-bottom: 2px solid #06b9fe;
 	position: relative;
+	margin-bottom : 30px;
 }
 
-#avis #avisVerifie {
+.avisVerifie {
 	/* background-color: red; */
 	height: 40px;
 	width: 100%;
@@ -110,11 +111,11 @@ em {
 	top: 20px; 
 }
 
-#avis #avisVerifie img {
+.avisVerifie img {
 	height: 20px;
 }
 
-#avis #blocAvisClient {
+.blocAvisClient {
 	/* background-color: yellow; */
 	width: 100%;
 	/* margin: 0 auto; */
@@ -122,12 +123,12 @@ em {
 	top: 20px; 
 }
 
-#avis #sousblocAvisClient {
+.sousblocAvisClient {
 	width: 100%;
 	margin: 0 auto;
 }
 
-#avis #blocAvisClient #client {
+.client {
 	/* background-color: blue; */
 	text-align: center;
 	float: left;
@@ -135,7 +136,7 @@ em {
 	height: 120px;
 }
 
-#avis #blocAvisClient #client img {
+.client img {
 	height: 90px;
 	border-radius:45px;
 	overflow: hidden;
@@ -143,13 +144,13 @@ em {
 	
 }
 
-#avis #blocAvisClient #client #pseudoClient {
+.pseudoClient {
 	color: #ffb100;
 	font-size: 1.2em;
 	font-weight: bold;	
 }
 
-#avis #blocAvisClient #blocCommentaire {
+.blocCommentaire {
 	/* background-color: green; */
 	text-align: left;
 	height: 120px;
@@ -158,9 +159,31 @@ em {
 	line-height: 20px;
 }
 
-#avis #blocAvisClient #blocCommentaire #etoiles {
+.etoiles {
 	height: 20px;
 }
 
+#avis2{
+	display : none;
+}
 
+#avis3{
+	display : none;
+}
 
+@media (min-width:1201px){
+	
+	#groupeAvis{
+		width : 100%;
+		display : flex;
+	}
+	
+	#avis2{
+		display : block;
+	}
+	
+	#avis3{
+		display : block;
+	}
+	
+}
