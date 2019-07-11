@@ -9,6 +9,8 @@ em {
 #produitImg{
 	height : 500px;
 	width : 100%;
+	margin : 0 5%;
+	margin : auto;
 }
 
 #produitImg img{
@@ -121,7 +123,7 @@ em {
 }
 
 #avis #sousblocAvisClient {
-	width: 400px;
+	width: 100%;
 	margin: 0 auto;
 }
 
