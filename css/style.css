@@ -264,7 +264,7 @@ footer .container-fluid {
 }
 .articleButton:hover {
     transition:all .5s;
-	background-color: green;
+	background-color: #FFA500;
 	color:white;
 }
 .articleA {
