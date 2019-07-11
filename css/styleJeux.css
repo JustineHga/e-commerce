@@ -63,7 +63,12 @@ em {
 	margin-right : 12%;
 	font-size : 2em;
 }
-
+#produitPrixPromo2{
+	text-align : right;
+	margin-right : 12%;
+	font-size : 2em;
+	margin-bottom:50px;
+}
 #produitAchat{
 	position : relative;
 	margin-top : 30px;
