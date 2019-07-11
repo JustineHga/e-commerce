@@ -161,10 +161,11 @@ footer .container-fluid {
 	position : absolute;
 	left : 0;
 	width:100%;
+	/*height:200px;*/
 	margin-top : 64px;
 }
 .contentAccueil{
-	padding-top : 13rem;
+	padding-top : 50%;
 }
 .contentAccueil p{
 	text-align: justify;
