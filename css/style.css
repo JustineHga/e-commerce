@@ -42,6 +42,9 @@ référencement:
     font-style: normal;
 }
 
+em {
+	color:#06B9FE;
+}
 
 .game {
 	font-family:"Gamer";

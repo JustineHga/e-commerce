@@ -8,6 +8,10 @@
 	margin-bottom:20px;
 }
 
+em {
+	color:#06B9FE;
+}
+
 .font-h1{font-family:'Anton', sans-serif;}
 
 .descriptionContent{text-align:center;}
