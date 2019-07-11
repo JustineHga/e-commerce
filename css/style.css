@@ -145,18 +145,20 @@ footer .container-fluid {
 .justify {
 	justify-content:center;
 }
-
+.banner {
+	position : absolute;
+	left : 0;
+	width:100%;
+	margin-top : 100px;
+}
+.contentAccueil{
+	padding-top : 400px;
+}
 .content {
 	text-align:center;
 	/* border: solid 1px; */
 }
-.banner {
-	padding-top: 90px;
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	width:100%;
-}
+
 .topText {
 	margin-top:5px;
 }
