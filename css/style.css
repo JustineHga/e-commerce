@@ -151,34 +151,34 @@ footer .container-fluid {
 	justify-content:center;
 }
 
-.content{
+.content {
 	text-align:center;
 	/* border: solid 1px; */
 }
-.banner{
+.banner {
 	padding-top: 90px;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	width:100%;
 }
-.topText{
+.topText {
 	margin-top:5px;
 }
 .promos {
     width: 15%;
     position: absolute;
-    top: 20px;
+    top: 0;
     right: 0;
     margin-top: 0%;
 }
-.article{
+.article {
 	border-bottom: solid 1px #06B9FE;
 	padding:2%;
 	margin:3%;
 	height: 300px;
 }
-.article4{
+.article4 {
 	padding:2%;
 	margin:3%;
 	height: 300px;
@@ -202,14 +202,12 @@ footer .container-fluid {
 	height:100%;
 	display:flex;
 	flex-direction:column;
-	
 }
 .articleImg{
     height: auto;
     width: 100%;
 	max-height:100%;
 }
-
 .articleH2 {
 	font-family: sans-serif;
     font-weight: bold;
@@ -218,11 +216,9 @@ footer .container-fluid {
 	padding: 0;
     text-align: left;
 }
-
 .articleConsole {
 	font-style:italic;
 }
-
 .articleAncienPrix {
     font-style: italic;
     text-decoration: line-through;
@@ -254,7 +250,7 @@ footer .container-fluid {
     color: black;
     font-weight: bold;
     font-style: italic;
-    width: 150%;
+    width: 100%;
     height: 100%;
     display: block;
     line-height: 45px;
@@ -294,7 +290,15 @@ footer .container-fluid {
 
 /*******************content tablette*****************************/
 @media(min-width: 768px){	
-}
+	.article, .article4 {
+		border-bottom: solid 0px #06B9FE;
+		background-color: pink;
+		height: 300px;
+		position: relative;
+	}
+	
+	.article, .article4 {
+} 
 
 
 
