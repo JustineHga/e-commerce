@@ -16,11 +16,22 @@ em {
 
 .descriptionContent{text-align:center;}
 
-.marg-img{margin-left:40px;}
-
 .game {
 	font-family:"Gamer";
 	font-size:4em;
+}
+
+.article{
+    height: 100%;
+}
+
+.articleDivImg{
+    width: 100%;
+}
+
+.articleDivTextDiv4{
+    justify-content: space-around;
+    align-items: center;
 }
 
 @font-face {
