@@ -31,6 +31,10 @@ em {
     width: 100%;
 }
 
+.articleDivTextDiv{
+	margin : inherit;
+}
+
 .articleDivTextDiv4{
     justify-content: space-around;
     align-items: left;
