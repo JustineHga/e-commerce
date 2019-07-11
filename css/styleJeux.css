@@ -2,6 +2,10 @@
 	margin-top : 120px;
 }
 
+em {
+	color:#06B9FE;
+}
+
 #produitImg{
 	height : 500px;
 	width : 100%;

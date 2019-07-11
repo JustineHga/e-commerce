@@ -42,6 +42,9 @@ référencement:
     font-style: normal;
 }
 
+em {
+	color:#06B9FE;
+}
 
 .game {
 	font-family:"Gamer";
@@ -97,6 +100,10 @@ h2 {
 }
 
 /* fin header menu pc */
+
+.h2cgv {
+	margin-bottom:3%;
+}
 
 @media (min-width:1201px){
 	
@@ -376,5 +383,8 @@ h2 {
 #blocCopyright #copyright {
 	font-style: italic;
 	font-size: 0.8em;
+}
+#copyright{
+	color:white;
 }
 
