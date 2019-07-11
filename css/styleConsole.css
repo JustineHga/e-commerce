@@ -28,6 +28,7 @@ em {
 }
 
 .h1console {
+	font-family: "Nintender";
 	margin-top: 100px;
 }
 
@@ -45,5 +46,6 @@ h2{
 	padding: 2%;
 }
 .textH1Console {
+	font-family: "gamer";
 	margin-left: 30px;
 }
