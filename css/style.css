@@ -98,13 +98,15 @@ h2 {
 #headerRecherche input{
 	display : none;
 }
-
 /* fin header menu pc */
 
 .h2cgv {
 	margin-bottom:3%;
 	text-align:left;
 	margin-left:3%;
+}
+footer .container-fluid {
+	border-top:solid 2px #5db9fd;
 }
 
 @media (min-width:1201px){
@@ -390,3 +392,7 @@ h2 {
 	color:white;
 }
 
+#blocMentionsLegales a{
+	text-decoration:none;
+	color:white;
+}
