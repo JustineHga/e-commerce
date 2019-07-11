@@ -98,6 +98,10 @@ h2 {
 
 /* fin header menu pc */
 
+.h2cgv {
+	margin-bottom:3%;
+}
+
 @media (min-width:1201px){
 	
 	.nav-item{
