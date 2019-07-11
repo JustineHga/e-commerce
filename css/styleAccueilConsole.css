@@ -23,6 +23,10 @@ em {
 
 .article {height: 100%;}
 
+.articleH21, .articleH22{
+	font-weight : normal;
+}
+
 .articleDivImg{
     width: 100%;
 }
