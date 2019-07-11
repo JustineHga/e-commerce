@@ -178,6 +178,12 @@ footer .container-fluid {
 	margin:3%;
 	height: 300px;
 }
+.article4{
+	padding:2%;
+	margin:3%;
+	height: 300px;
+	height: 100%;
+}
 .articleContent {
 	display:flex;
 	flex-direction:row;
