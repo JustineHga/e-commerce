@@ -161,19 +161,17 @@ footer .container-fluid {
 	position : absolute;
 	left : 0;
 	width:100%;
-	margin-top : 100px;
+	margin-top : 64px;
 }
 .contentAccueil{
-	padding-top : 400px;
+	padding-top : 13rem;
+}
+.contentAccueil p{
+	text-align: justify;
 }
 .content {
 	text-align:center;
 	/* border: solid 1px; */
-}
-
-
-.topText {
-	margin-top:100px;
 }
 
 .promos {
@@ -281,7 +279,7 @@ footer .container-fluid {
 	color:white;
 	text-decoration:none;
 }
-.articleDivTextDiv {
+/*.articleDivTextDiv {
 	display:flex;
 	height:25%;
 	margin-left:3%;
@@ -302,9 +300,13 @@ footer .container-fluid {
 	height:25%;
 	justify-content: flex-end;
 	margin-top:50px;
-}
+}*/
 .decalText{
-	margin-top:30px;
+	margin-top:20%;
+}
+
+.topText{
+	font-size: 1.7em;
 }
 
 /*******************content tablette*****************************/
@@ -341,7 +343,8 @@ footer .container-fluid {
 		right: 3px;
 		bottom: 0px;	
 	}
-		
+
+
 } 
 
 }
