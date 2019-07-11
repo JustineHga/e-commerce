@@ -56,6 +56,11 @@ h1 {
 h2 {
 	font-family: 'Orbitron', sans-serif;
 }
+.policeRetroG{
+	font-family:"Gamer";
+	font-size: 2em;
+	
+}
 /* header menu */
 
 /* header menu mobile*/
@@ -393,6 +398,7 @@ footer .container-fluid {
 }
 #copyright{
 	color:white;
+	padding-bottom: 15px;
 }
 
 #blocMentionsLegales a{
